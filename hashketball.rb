@@ -2,7 +2,7 @@
 def game_hash
   hash = {
     away: { team_name: "Charlotte Hornets",
-            :colors => ["Black", "White"],
+            :colors => ["Turquoise", "Purple"],
             players: [
               { player_name: "Jeff Adrien",
                 number: 4,
@@ -51,7 +51,7 @@ def game_hash
                 slam_dunks: 12 }
             ] },
     home: { team_name: "Brooklyn Nets",
-            colors: %w[Black White],
+            :colors => ["Black", "White"],
             players: [
               { player_name: "Alan Anderson",
                 number: 0,
