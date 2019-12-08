@@ -286,4 +286,5 @@ describe 'super bonus' do
 
   end
 
-end end=
+end
+=end
