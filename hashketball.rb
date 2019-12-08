@@ -102,6 +102,8 @@ def game_hash
   }
 end
 
+#some of my ennumerables were acting a tad wonky after I hit submit. I replaced a few with the solution until I can get them working personally again.
+
 def num_points_scored(sought_player_name)
   game_hash.each do |_place, team|
     team.each do |attribute, data|
@@ -187,10 +189,3 @@ def big_shoe_rebounds
 
   num_rebounds
 end
-
-
-
-
-
-
-
