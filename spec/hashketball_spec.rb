@@ -1,7 +1,6 @@
 require 'spec_helper'
 
 describe 'hashketball' do
-  binding.pry
 
   describe '#game_hash' do
     let(:top_level_keys) { [:home, :away] }
