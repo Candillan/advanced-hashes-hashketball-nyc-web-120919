@@ -248,7 +248,7 @@ end
 
 # If you'd like to work on the bonus, uncomment these tests.
 
-#describe 'bonus' do
+=begin describe 'bonus' do
 
   describe '#most_points_scored' do
 
@@ -286,4 +286,4 @@ describe 'super bonus' do
 
   end
 
-end*/
+end end=
